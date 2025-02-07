@@ -6,6 +6,8 @@ public class Main {
 
 		Tree<Integer> tree = new Tree<Integer>();
 		tree.toAdd(10);
+		tree.toAdd(4);
+
 	}
 
 }

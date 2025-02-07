@@ -9,6 +9,10 @@ public class Tree<TIPO> {
 	}
 
 	public void toAdd(TIPO value) {
+		Element<TIPO> newElement = new Element<TIPO>(value);
 
+		if(root == null) {
+			this.root = newElement;
+		}
 	}
 }

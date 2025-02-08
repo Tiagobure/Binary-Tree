@@ -14,15 +14,43 @@ public class Main {
 		tree.toAdd(13);
 		tree.toAdd(20);
 		
-		System.out.println("pre order:");
-		tree.preOrder(tree.getRoot());
+		//System.out.println("pre order:");
+		//tree.preOrder(tree.getRoot());
 
 		System.out.println("\nin order:");
 		tree.inOrder(tree.getRoot());
 		
 				
-		System.out.println("\npos order:");
-		tree.posOrder(tree.getRoot());
+		//System.out.println("\npos order:");
+	//	tree.posOrder(tree.getRoot());
+		
+		tree.remove(20);
+		System.out.println("\nin order:");
+		tree.inOrder(tree.getRoot());
+		
+		tree.remove(5);
+		System.out.println("\nin order:");
+		tree.inOrder(tree.getRoot());
+
+		tree.remove(8);
+		System.out.println("\nin order:");
+		tree.inOrder(tree.getRoot());
+		
+		tree.remove(9);
+		System.out.println("\nin order:");
+		tree.inOrder(tree.getRoot());	
+	
+		tree.remove(13);
+		System.out.println("\nin order:");
+		tree.inOrder(tree.getRoot());	
+		
+		tree.remove(18);
+		System.out.println("\nin order:");
+		tree.inOrder(tree.getRoot());	
+	
+		tree.remove(10);
+		System.out.println("\nin order:");
+		tree.inOrder(tree.getRoot());
 	}
 
 }
